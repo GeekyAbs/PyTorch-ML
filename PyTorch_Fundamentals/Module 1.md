@@ -43,7 +43,7 @@ loss.backward()
 ```
 
 # The ML Pipeline
-![[Pasted image 20260320201619.png]]
+![ML Pipeline](<Pasted image 20260320201619.png>)
 
 ### 📥 Data Ingestion  
 - Collect raw data from various sources (databases, APIs, sensors, logs)  
@@ -94,7 +94,7 @@ loss.backward()
 
 # Building Neural Networks
 
-![[Pasted image 20260320201954.png]]
+![Imports](<Pasted image 20260320201954.png>)
 
 ## Data Ingestion & Data Prep
 
@@ -171,7 +171,7 @@ print(f"Bias: {bias}")
 - Common ones:
   - **ReLU** → most widely used
   - Sigmoid, Tanh → used in specific cases
-  ![[Pasted image 20260320204652.png]]
+    ![Different Activation Functions](<Pasted image 20260320204652.png>)
 
 ---
 
