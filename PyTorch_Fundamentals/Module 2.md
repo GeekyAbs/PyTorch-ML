@@ -6,17 +6,17 @@ transforms.ToTensor(),
 transforms.Normalize((mean,), (std,))
 ])
 ```
-- ToTensor() : converts to pytorch tensors and centres around 0 & 1
-- Normalize() : mean and standard deviation
+- `ToTensor()` : converts to pytorch tensors and centres around 0 & 1
+- `Normalize()` : mean and standard deviation
 ## Dataset
-![](<Pasted image 20260321115211.png>)
+![](<Screenshot 2026-03-21 115208.png>)
 
 ## DataLoader
 
-`` train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
+`` train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)``
 
 # Model Building
-![](<Pasted image 20260321120025.png>)
+![](<Screenshot 2026-03-21 120021.png>)
 
 ## Evaluation
 
@@ -87,7 +87,8 @@ $$
 - Focuses on the **probability of the correct class**
 - **Penalizes confident wrong predictions heavily**
 --- 
-
+## Other Loss Functions
+![Other Loss Functions](<Screenshot 2026-03-21 120849.png>)
 # 🔁 Backpropagation & Optimizers 
 ## 📉 1. Backward (Gradient Computation)
 - `loss.backward()` computes **gradients for each parameter**
