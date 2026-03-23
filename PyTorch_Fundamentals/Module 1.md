@@ -43,7 +43,7 @@ loss.backward()
 ```
 
 # The ML Pipeline
-![ML Pipeline](<Pasted image 20260320201619.png>)
+![ML Pipeline](../Images/ml-pipeline.png)
 
 ### 📥 Data Ingestion  
 - Collect raw data from various sources (databases, APIs, sensors, logs)  
@@ -94,7 +94,7 @@ loss.backward()
 
 # Building Neural Networks
 
-![Imports](<Pasted image 20260320201954.png>)
+![Imports](<../Images/libraries-import.png>)
 
 ## Data Ingestion & Data Prep
 
@@ -171,7 +171,7 @@ print(f"Bias: {bias}")
 - Common ones:
   - **ReLU** → most widely used
   - Sigmoid, Tanh → used in specific cases
-    ![Different Activation Functions](<Pasted image 20260320204652.png>)
+    ![Different Activation Functions](<../Images/activation-funcs.png>)
 
 ---
 
@@ -346,4 +346,3 @@ print("\nTENSOR DATA TYPE:", tensor_from_df.dtype)
 - `torch.mean()`: Calculates the mean of all elements in a tensor.
 - `torch.std()`: Calculates the standard deviation of all elements.
 
-### Broadcasting

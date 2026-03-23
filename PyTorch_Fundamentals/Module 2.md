@@ -9,14 +9,14 @@ transforms.Normalize((mean,), (std,))
 - `ToTensor()` : converts to pytorch tensors and centres around 0 & 1
 - `Normalize()` : mean and standard deviation
 ## Dataset
-![](<Screenshot 2026-03-21 115208.png>)
+![](<../Images/pre-built-datasets.png>)
 
 ## DataLoader
 
 `` train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)``
 
 # Model Building
-![](<Screenshot 2026-03-21 120021.png>)
+![Model Building](<../Images/model-building.png>)
 
 ## Evaluation
 
@@ -88,7 +88,7 @@ $$
 - **Penalizes confident wrong predictions heavily**
 --- 
 ## Other Loss Functions
-![Other Loss Functions](<Screenshot 2026-03-21 120849.png>)
+![Other Loss Functions](<../Images/other-loss-functions.png>)
 # 🔁 Backpropagation & Optimizers 
 ## 📉 1. Backward (Gradient Computation)
 - `loss.backward()` computes **gradients for each parameter**
@@ -96,12 +96,45 @@ $$
 
 > ❗ Backward does NOT update weights → only calculates gradients
 
+This is applied layer by layer from output to input. Computing gradients using chain rule:
+$$\
+\frac{\partial L}{\partial w} = \frac{\partial L}{\partial a} \cdot \frac{\partial a}{\partial w}  
+\
+$$
+## 📌 For a Single Neuron  
+  
+Given:  
+$ z = w \cdot x + b $  
+$ a = \sigma(z) $  
+  
+Then:  
+  
+$$  
+\frac{\partial L}{\partial w} =  
+\frac{\partial L}{\partial a} \cdot  
+\frac{\partial a}{\partial z} \cdot  
+\frac{\partial z}{\partial w}  
+$$
 ---
 
-## 🧠 2. Gradient Intuition
+## 🧠 2. Gradient Descent
 - Think: **standing on a hill**
 - Gradient = direction of steepest increase  
 - To minimize loss → move **opposite direction** (gradient descent)
+
+Weights and biases are updated using gradient descent:
+
+$$
+w = w - \eta \frac{\partial L}{\partial w}
+$$
+
+$$
+b = b - \eta \frac{\partial L}{\partial b}
+$$
+
+Where:
+- $\eta$: Learning rate
+- $ \frac{\partial L}{\partial w} $: Gradient computed via backpropagation
 
 ---
 
