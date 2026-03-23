@@ -97,24 +97,19 @@ $$
 > ❗ Backward does NOT update weights → only calculates gradients
 
 This is applied layer by layer from output to input. Computing gradients using chain rule:
-$$\
-\frac{\partial L}{\partial w} = \frac{\partial L}{\partial a} \cdot \frac{\partial a}{\partial w}  
-\
-$$
-## 📌 For a Single Neuron  
-  
-Given:  
-$ z = w \cdot x + b $  
-$ a = \sigma(z) $  
-  
-Then:  
-  
-$$  
-\frac{\partial L}{\partial w} =  
-\frac{\partial L}{\partial a} \cdot  
-\frac{\partial a}{\partial z} \cdot  
-\frac{\partial z}{\partial w}  
-$$
+This is applied layer by layer from output to input. Computing gradients using chain rule:
+
+$$\frac{\partial L}{\partial w} = \frac{\partial L}{\partial a} \cdot \frac{\partial a}{\partial w}$$
+
+## 📌 For a Single Neuron
+
+Given:
+$z = w \cdot x + b$
+$a = \sigma(z)$
+
+Then:
+
+$$\frac{\partial L}{\partial w} = \frac{\partial L}{\partial a} \cdot \frac{\partial a}{\partial z} \cdot \frac{\partial z}{\partial w}$$
 ---
 
 ## 🧠 2. Gradient Descent
@@ -134,7 +129,7 @@ $$
 
 Where:
 - $\eta$: Learning rate
-- $ \frac{\partial L}{\partial w} $: Gradient computed via backpropagation
+- $\frac{\partial L}{\partial w}$: Gradient computed via backpropagation
 
 ---
 
