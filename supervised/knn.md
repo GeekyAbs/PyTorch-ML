@@ -9,7 +9,7 @@
 ## 📌 Definition
 K-Nearest Neighbors (KNN) is a non-parametric supervised learning algorithm that classifies or predicts the value of a data point based on the majority label (or average) of its k nearest neighbors in the feature space.
 
-![](<..\Images\images.png>)
+![](../Images/images.png)
 
 ---
 
