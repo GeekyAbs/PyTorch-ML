@@ -2,6 +2,11 @@
 
 > **A hands-on, beginner-friendly repository for learning PyTorch fundamentals and building neural networks from scratch.**
 
+> **New to ML or want a quick refresher?**  
+> Before diving into PyTorch, check out the [`ml-algos branch`](https://github.com/GeekyAbs/PyTorch-ML/tree/ml-algos-branch) for implementations of **classical ML algorithms** (Linear Regression, SVM, K-Means, Decision Trees, and more) using NumPy & scikit-learn.  
+> `git checkout ml-algos` to switch branches.
+
+---
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PyTorch](https://img.shields.io/badge/PyTorch-≥2.0-EE4C2C?logo=pytorch)](https://pytorch.org)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter)](https://jupyter.org)
