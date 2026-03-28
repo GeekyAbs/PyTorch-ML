@@ -10,21 +10,18 @@
 
 ## 📋 Table of Contents
 
-- [About](#-about)
-- [Features](#-features)
-- [Repository Structure](#-repository-structure)
-- [Getting Started](#-getting-started)
-- [Learning Path](#-learning-path)
-- [Notebooks Overview](#-notebooks-overview)
-- [Visual Resources](#-visual-resources)
-- [Prerequisites](#-prerequisites)
-- [Installation](#-installation)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [About](#about)
+- [Features](#features)
+- [Repository Structure](#repository-structure)
+- [Learning Path](#learning-path)
+- [Notebooks Overview](#notebooks-overview)
+- [Prerequisites](#prerequisites)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-## 🎯 About
+## About
 
 **PyTorch-ML** is a curated collection of educational resources designed to help you master PyTorch for machine learning and deep learning. Whether you're a student, researcher, or practitioner, this repo provides:
 
@@ -36,7 +33,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 - 🔹 **Dynamic Computation Graphs**: Learn why PyTorch's define-by-run approach is ideal for research and debugging
 - 🔹 **End-to-End ML Pipeline**: From data ingestion → preprocessing → modeling → evaluation → deployment
@@ -47,7 +44,7 @@
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 PyTorch-ML/
@@ -68,7 +65,7 @@ PyTorch-ML/
 
 ---
 
-## 📚 Learning Path
+## Learning Path
 
 Follow the modules in order for a structured learning experience:
 
@@ -81,7 +78,7 @@ Follow the modules in order for a structured learning experience:
 
 ---
 
-## 📓 Notebooks Overview
+## Notebooks Overview
 
 | Notebook | Description | Dataset | Skills Practiced |
 |----------|-------------|---------|-----------------|
@@ -92,7 +89,7 @@ Follow the modules in order for a structured learning experience:
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 - Basic Python programming (functions, classes, NumPy)
 - Fundamental ML concepts (loss functions, gradient descent, train/test split)
@@ -100,7 +97,7 @@ Follow the modules in order for a structured learning experience:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -110,7 +107,7 @@ Contributions are welcome! Here's how you can help:
 4. Push to the branch: `git push origin feat/your-idea`
 5. Open a Pull Request
 
-✅ **Good contributions include**:
+**Good contributions include**:
 - Bug fixes in notebooks
 - New tutorial notebooks (with clear explanations)
 - Improved visualizations or diagrams
@@ -118,13 +115,13 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
 
 ---
 
-> 💬 **Have questions or suggestions?**  
+> **Have questions or suggestions?**  
 > Open an [issue](https://github.com/GeekyAbs/PyTorch-ML/issues) or reach out to [@GeekyAbs](https://github.com/GeekyAbs) on GitHub!
 
 ⭐ **If you found this repo helpful, please star it!** It helps others discover these resources.
